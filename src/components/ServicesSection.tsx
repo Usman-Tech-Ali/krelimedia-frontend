@@ -108,7 +108,7 @@ export function ServicesSection() {
 
                   {/* Hidden Description (Revealed on hover, slides up from bottom) */}
                   <div className="overflow-hidden mt-4">
-                    <p className="text-white/90 leading-relaxed text-sm md:text-base transform translate-y-[120%] opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 drop-shadow-md font-medium">
+                    <p className="text-white/90 leading-relaxed text-sm md:text-base transform translate-y-0 opacity-100 md:translate-y-[120%] md:opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100 drop-shadow-md font-medium">
                       {service.description}
                     </p>
                   </div>

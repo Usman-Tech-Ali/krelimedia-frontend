@@ -131,7 +131,7 @@ export function ContactSection() {
             {/* Submit Button */}
             <button 
               type="button" 
-              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary text-primary-foreground rounded-md font-medium hover:bg-primary/90 transition-colors active:scale-95"
+              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-primary text-white rounded-md font-medium hover:bg-primary/90 transition-colors active:scale-95"
             >
               Book a Free Discovery Call
               <ArrowRight className="w-5 h-5" />
